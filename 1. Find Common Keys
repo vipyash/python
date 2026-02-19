@@ -1,0 +1,8 @@
+#Find Common Keys  
+a={'a':1,'b':2}
+b={'b':3,'c':4}
+c=[]
+for i in a.keys():
+    if i in b.keys():
+        c.append(i)
+print(c)

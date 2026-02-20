@@ -1,0 +1,10 @@
+#Given a list of words, group them into anagrams using a dictionary.
+a=["eat","tea","tan","ate","nat","bat"]
+b={}
+for i in a:
+  key=''.join(sorted(i))
+  if key not in b:
+    b[key]=[]
+  b[key].append(i)
+print(i)
+  

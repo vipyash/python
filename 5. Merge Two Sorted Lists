@@ -1,0 +1,9 @@
+#Input: list1 = [1,2,4], list2 = [1,3,4]
+#Output: [1,1,2,3,4,4]
+list1 = [1,2,4] 
+list2 = [1,3,4]
+
+for i in range(0,len(list1)):
+    list1.append(list2[i])
+result=sorted(list1)
+print(result)

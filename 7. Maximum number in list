@@ -1,0 +1,6 @@
+a=[12,3,55,23,6,78,33,4]
+lar=a[0]
+for i in a:
+    if i > lar:
+        lar=i
+print(lar)

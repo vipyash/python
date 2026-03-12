@@ -1,0 +1,8 @@
+digits = [1,2,3]
+s=""
+for i in digits:
+    s+=str(i)
+sum_val = int(s) + 1
+print(sum_val)
+
+    

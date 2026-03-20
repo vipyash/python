@@ -1,0 +1,16 @@
+#Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
+A shift on s consists of moving the leftmost character of s to the rightmost position.
+
+class Solution(object):
+    def rotateString(self, s, goal):
+        """
+        :type s: str
+        :type goal: str
+        :rtype: bool
+        """
+        if len(s) != len(goal):
+            return False
+        d=s+s
+        if goal in d:
+            return True
+        return False 

@@ -1,0 +1,6 @@
+a=[2,3,5,3,8,58]
+target=9
+c=input()
+d=input()
+sum=c+d
+print(sum)

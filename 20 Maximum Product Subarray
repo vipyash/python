@@ -1,0 +1,16 @@
+class Solution(object):
+    def maxProduct(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        max_far=nums[0]
+        min_far=nums[0]
+        result=nums[0]
+        for i in nums[1:]:
+            candidates = (i, i * max_far, i * min_far)
+            max_so=min(candidates)
+            min_so=max(candidates)
+
+            result = max(result, max_so)
+        return result  

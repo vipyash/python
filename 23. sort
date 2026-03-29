@@ -1,0 +1,19 @@
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def sortList(self, head):
+        """
+        :type head: Optional[ListNode]
+        :rtype: Optional[ListNode]
+        """
+        n=len(head)
+        for i in range(n):
+            for j in range(0,n-i-1):
+                if head[j] > head[j+1]:
+                    head[j], head[j+1] = head[j+1], head[j]
+
+        return head
+        

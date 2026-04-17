@@ -1,0 +1,8 @@
+nums = [5,7,7,8,8,10]
+target=6
+if target in nums:
+    first=nums.index(target)
+    second=len(nums) - 1 - nums[::-1].index(target)
+    print(first,second)
+else:
+    print([-1,-1])

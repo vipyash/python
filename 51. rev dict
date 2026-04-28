@@ -1,0 +1,5 @@
+original_dict = {"one": 1, "two": 2, "three": 3}
+rev={}
+for key, value in original_dict.items():
+    rev[value] =key
+print(rev)

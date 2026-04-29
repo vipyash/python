@@ -1,0 +1,5 @@
+sqr=[]
+for i in range(1,6):
+    b=i*i
+    sqr.append(b)
+print(sqr)

@@ -1,0 +1,15 @@
+nums = [-1,2,1,-4]
+nums = [0, 0, 0]
+target = 1
+
+closest_sum = float('inf')
+
+for i in range(len(nums)):
+    for j in range(i + 1, len(nums)):
+        for z in range(j + 1, len(nums)):
+            c = nums[i] + nums[j] + nums[z]
+            if abs(c - target) < abs(closest_sum - target):
+                closest_sum = c
+
+print(closest_sum)
+

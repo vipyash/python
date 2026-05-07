@@ -1,0 +1,12 @@
+class Solution(object):
+    def maxProduct(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        max_product = float('-inf')
+        for i in range(len(nums) - 1):   # only check adjacent pairs
+            c = nums[i] * nums[i+1]
+            if c > max_product:
+                max_product = c
+        return max_product

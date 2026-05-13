@@ -1,0 +1,3 @@
+def rotate(l):
+  k=k%len(l)
+  return l[-k:]+l[:-k]

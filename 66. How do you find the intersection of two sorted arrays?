@@ -1,0 +1,14 @@
+A = [1,2,4,5,7]
+B = [2,3,5,6]
+i=0
+j=0
+resut=[]
+for i in range(len(A)):
+    for j in range(len(B)):
+        if A[i] == B[j]:
+            resut.append(A[i])
+            resut.append(B[j])
+c=set(resut)
+
+print(c)
+            

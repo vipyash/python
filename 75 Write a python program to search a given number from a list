@@ -1,0 +1,8 @@
+b = [10, 20, 30, 40, 50]
+c = int(input())
+
+if c in b:
+    position = b.index(c)  # Finds the index (e.g., 20 is at index 1)
+    print(position)     # Accesses the list using square brackets
+
+

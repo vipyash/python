@@ -1,0 +1,6 @@
+numbers = [10, 20, 30, 40, 50]
+c=[]
+for i in numbers:
+  if i not in c:
+    c.append(i)
+print(c)

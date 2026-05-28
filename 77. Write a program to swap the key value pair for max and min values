@@ -1,0 +1,5 @@
+
+dic={"a":1,"b":2,"c":3}
+values=list(dic.values())[::-1]
+dic=dict(zip(dic.keys(),values))
+print(dic)

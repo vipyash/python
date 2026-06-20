@@ -1,0 +1,6 @@
+s = "abcabcbb"
+sub=""
+for i in s:
+    if i not in sub:
+        sub+=i
+print(len(sub))

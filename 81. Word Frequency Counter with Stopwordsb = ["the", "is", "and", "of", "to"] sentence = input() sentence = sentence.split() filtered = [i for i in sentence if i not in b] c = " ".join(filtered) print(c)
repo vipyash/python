@@ -1,0 +1,6 @@
+b = ["the", "is", "and", "of", "to"]
+sentence = input()
+sentence = sentence.split()
+filtered = [i for i in sentence if i not in b]
+c = " ".join(filtered)
+print(c)

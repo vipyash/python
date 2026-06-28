@@ -1,0 +1,13 @@
+text = "Programming in Python is Powerful"
+
+result={}
+for i in text:
+    if i not in result:
+        result[i]=1
+    else:
+        result[i]+=1
+
+
+c = max(result, key=result.get)
+print(result[c])
+print(c)

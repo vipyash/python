@@ -1,0 +1,7 @@
+Input= "bbbbb"
+b=""
+for i in Input:
+    if i not in b:
+        b+=i
+print(b)
+print(len(b))

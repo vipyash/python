@@ -1,0 +1,3 @@
+words = ["hi", "hello", "hey", "python"]
+list=[len(i) for i in words]
+print(list)

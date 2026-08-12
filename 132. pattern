@@ -1,0 +1,13 @@
+s=int(input())
+p=65
+for i in range(n):
+    for j in range(i+1):
+      print(chr(i),end=" ")
+    p+=2
+    print()
+
+
+A 
+C C 
+E E E 
+G G G G

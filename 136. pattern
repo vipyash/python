@@ -1,0 +1,22 @@
+n=int(input())
+for i in range(n);
+  for j in range(i,n):
+    print(" ",end=" ")
+  for j in range(i):
+    if i%2 == 0:
+      print("z", end=" ")
+    else:
+      print("o", end=" ")
+
+  for j in range(i,n-1):
+    if i%2==0:
+      print("z", end=" ")
+   else:
+     print("o",end=" ")
+  print()
+
+
+   z z z z z z z 
+  o o o o o 
+   z z z 
+    o

@@ -1,0 +1,11 @@
+
+str1 = "PyNaTive"
+lower=""
+upper=""
+for i in str1:
+    if i.isupper():
+        upper+=i
+    else:
+        lower+=i
+result=lower+upper
+print(result)

@@ -1,0 +1,7 @@
+str1 = "/*Jon is @developer & musician!!"
+
+best=""
+for i in str1:
+    if i.isalnum() or i.isspace():
+        best+=i
+print(best)

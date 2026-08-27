@@ -1,0 +1,7 @@
+str1 = "I am 25 years and 10 months old"
+print("Original string is:", str1)
+
+# Joining only the digits found in the string
+res = "".join([item for item in str1 if item.isdigit()])
+
+print("Resulting digits:", res)

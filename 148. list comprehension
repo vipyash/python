@@ -1,0 +1,4 @@
+b= [-5, 3, -1, 10, 0, -2]
+c=[]
+list=[i for i in b if i>=0]
+print(list)

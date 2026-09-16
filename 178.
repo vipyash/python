@@ -1,0 +1,10 @@
+
+
+roles = {"alice": "admin", "bob": "editor", "carol": "viewer"} 
+
+if "editor" in roles.values():
+   
+    print(True)
+
+else: 
+    print(False)
